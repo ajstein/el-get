@@ -1,5 +1,6 @@
 (:name o-blog
        :type github
-       :description "Stand alone org-mode blog exporter."
-       :pkgname "renard/o-blog"
+       :description "Stand alone org-mode blog exporter. This installs my version with workaround for recent Twitter Bootstrap devs creating new org, breaking upstream o-blog dependencies."
+       :pkgname "ajstein/o-blog"
+       :branch "org-rename"
        :depends htmlize)
